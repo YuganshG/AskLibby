@@ -1,0 +1,254 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "How are you doing?",
+        "Yo!",
+        "Hey there!",
+        "Whats up?",
+        "Howdy ?",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hi there",
+        "Is anyone here?",
+        "Anyone available?",
+        "Hello, anyone?"
+      ],
+      "responses": [
+        "Hello! How can I assist you with library information today?",
+        "Hi there! What can I help you with?",
+        "Hey! Need to know something about the library?"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thanks a lot",
+        "I appreciate it",
+        "That was helpful",
+        "You are awesome, thanks",
+        "Thank you so much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "You're very welcome!",
+        "Glad to assist!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Bye",
+        "I'm done",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you next time! Take care!",
+        "Bye! Come back if you need more help."
+      ]
+    },
+    {
+      "tag": "library_hours",
+      "patterns": [
+        "What are your hours?",
+		"Can I know your opening hours?",
+        "What’s your closing time?",
+        "When are you open?",
+        "When do you close?",
+		"What time do you open?",
+        "What time do you close?",
+        "Can you tell me the library hours?",
+        "What's your opening time?",
+		"Are you open now?",
+        "Is the library open now?",
+        "Are you open on weekends?",
+        "How long can i stay to read here?"
+      ],
+      "responses": [
+        "The library is open from 9 AM to 7 PM on weekdays and 10 AM to 5 PM on weekends.",
+        "Our hours are 9 AM to 7 PM, Monday through Friday, and 10 AM to 5 PM on weekends.",
+        "We are open from 9 AM to 7 PM on weekdays, and 10 AM to 5 PM on weekends."
+      ]
+    },
+    {
+      "tag": "book_return",
+      "patterns": [
+        "When is my book due?",
+        "How long can i lend a book?",
+        "When do I have to return my book?",
+        "How long can I borrow books?",
+        "How long can i lend a book?",
+        "How long can i keep a book?",
+        "When is the book overdue?",
+        "When the book becomes due?",
+        "What’s the return deadline for books?",
+        "What’s the due date for returning books?"
+      ],
+      "responses": [
+        "Books are due 14 days after check-out. You can renew if needed.",
+        "You need to return your book within 2 weeks. Do you need help with renewing it?",
+        "The return period is 14 days. You can renew your books online."
+      ]
+    },
+    {
+      "tag": "renew_books",
+      "patterns": [
+        "Can I renew my book?",
+        "How do I renew a book?",
+        "I need to extend my borrowing time",
+        "Can I extend the due date?",
+        "How do I extend my book loan?",
+        "Can i get the same book again?"
+      ],
+      "responses": [
+        "Yes, you can renew your book online or by visiting the library desk.",
+        "You can renew your book online through our library portal or in person.",
+        "To renew your book, log in to your library account or visit the front desk."
+      ]
+    },
+    {
+      "tag": "membership_info",
+      "patterns": [
+        "How do I become a member?",
+        "Can I sign up for a library card?",
+        "What are the membership fees?",
+        "How can i get the membership?",
+        "Tell me details about becoming a member?",
+        "Give me membership details!",
+        "How can I register for a library card?",
+        "What’s the process for getting a library card?"
+      ],
+      "responses": [
+        "You can sign up for a library card by visiting our front desk or filling out an online form.",
+        "Library membership is free. Just bring a valid ID and proof of address to register.",
+        "To become a member, fill out the registration form online or at the library."
+      ]
+    },
+    {
+      "tag": "overdue_fees",
+      "patterns": [
+        "What happens if I return a book late?",
+        "Do you charge for overdue books?",
+        "What are the overdue fees?",
+        "How much is the late fee for books?",
+        "Is there a penalty for late book returns?",
+        "What if i do not return a book?",
+        "what if i do not return book on time?",
+        "What is the fine for returning books late?",
+        "What are the charges for giving back books late?"
+      ],
+      "responses": [
+        "Yes, we charge $0.25 per day for overdue books.",
+        "The overdue fee is $0.25 per day. Please try to return your books on time.",
+        "For overdue books, we charge $0.25 per day. You can avoid this by renewing the book."
+      ]
+    },
+    {
+      "tag": "directions",
+      "patterns": [
+        "Where is the fiction section?",
+        "How do I find the research area?",
+        "Where can I find non-fiction books?",
+        "Where is the children's section?",
+        "Can you direct me to the study rooms?",
+        "Where is the restroom?",
+        "Where can i find the toilet?",
+        "Where is the washroom?",
+        "Is there a eating area?"
+      ],
+      "responses": [
+		"Please refer to the library map for detailed directions. Here is the link: [Library Map](http://example.com/library-map).",
+		"For guidance on finding different sections, please check the map provided here: [Library Map](http://example.com/library-map).",
+		"You can find the directions on our library map. Access it here: [Library Map](http://example.com/library-map).",
+		"For detailed directions to various sections, please use the following map: [Library Map](http://example.com/library-map)."
+	  ]
+    },
+	{
+      "tag": "events",
+      "patterns": [
+        "What events are happening at the library?",
+        "Are there any upcoming library events?",
+        "Can you tell me about library programs?",
+        "What workshops or events are scheduled?",
+        "Do you have any events this month?"
+      ],
+      "responses": [
+        "Check our events calendar here: [Library Events](http://example.com/library-events) for the latest updates.",
+        "We have various events and programs. Visit our events page for more details: [Library Events](http://example.com/library-events).",
+        "Upcoming events can be found on our website. Here's the link to the events calendar: [Library Events](http://example.com/library-events)."
+      ]
+    },
+	{
+      "tag": "contact_info",
+      "patterns": [
+        "How can I contact the library?",
+        "What’s the phone number for the library?",
+        "Can I get the library's email address?",
+        "What is the best way to reach you?",
+        "Do you have a contact number?",
+        "Can you give me your number?"
+      ],
+      "responses": [
+        "You can contact the library at (123) 456-7890 or email us at contact@library.com.",
+        "For inquiries, call us at (123) 456-7890 or send an email to contact@library.com.",
+        "Reach out to us at (123) 456-7890 or email contact@library.com for any questions."
+      ]
+    },
+    {
+      "tag": "computer_access",
+      "patterns": [
+        "Can I use a computer at the library?",
+        "Do you have computers available for public use?",
+        "Are there computers I can use?",
+        "Is there access to computers in the library?",
+        "How can I use a library computer?"
+      ],
+      "responses": [
+        "Yes, we have computers available for public use. You can find them in the Computer Lab area.",
+        "Computers are available in the library. Please check the Computer Lab for access.",
+        "We provide computer access in the library. Visit the Computer Lab area to use one."
+      ]
+    },
+    {
+      "tag": "printing_services",
+      "patterns": [
+        "Do you offer printing services?",
+        "Can I print documents at the library?",
+        "Are there printers available in the library?",
+        "How do I use the library’s printing services?",
+        "Is printing available for library members?"
+      ],
+      "responses": [
+        "Yes, we offer printing services. You can use the printers in the Computer Lab.",
+        "Printing is available in the library. Please visit the Computer Lab for details.",
+        "You can print documents at the library. Check out the Computer Lab for printing services."
+      ]
+    },
+    {
+      "tag": "printing_prices",
+      "patterns": [
+        "How much does printing cost?",
+        "What are the prices for printing?",
+        "Can you tell me the printing fees?",
+        "How much is it to print documents?",
+        "What are the charges for printing at the library?"
+      ],
+      "responses": [
+        "Printing costs $0.10 per page for black and white and $0.50 per page for color.",
+        "The price for printing is $0.10 per page for black and white and $0.50 per page for color.",
+        "For printing, the fee is $0.10 per page for black and white prints and $0.50 per page for color prints."
+      ]
+    }
+  ]
+}
